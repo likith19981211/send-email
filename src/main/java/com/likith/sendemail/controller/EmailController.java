@@ -34,6 +34,6 @@ public class EmailController {
 
     @GetMapping("/getMoreData2")
     public String getMoreData2(){
-        return "more data2..";
+        return "more data2...";
     }
 }
