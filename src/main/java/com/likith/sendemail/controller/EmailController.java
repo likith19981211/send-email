@@ -31,4 +31,9 @@ public class EmailController {
     public String getMoreData(){
         return "more data..";
     }
+
+    @GetMapping("/getMoreData2")
+    public String getMoreData2(){
+        return "more data2..";
+    }
 }
